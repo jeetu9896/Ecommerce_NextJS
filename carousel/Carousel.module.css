@@ -1,0 +1,30 @@
+.button {
+  opacity: 0.3;
+  height: 100px;
+  width: 100px;
+  /* border: none; */
+  border-radius: 10px;
+  z-index: 2;
+  font-size: xx-large;
+  position: absolute;
+  cursor: pointer;
+  background-color: rgb(255, 64, 64);
+  background: transparent;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.prev {
+  left: 1rem;
+}
+.next {
+  right: 1rem;
+}
+.main {
+  min-height: 90vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

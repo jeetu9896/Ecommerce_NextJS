@@ -1,0 +1,28 @@
+.cartitems {
+  width: 90%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.cartitems h1 {
+  font-size: 18px;
+  text-align: left;
+  margin: 20px;
+  color: #00303f;
+}
+.cartitems h2 {
+  font-size: 18px;
+  text-align: left;
+  margin: 20px;
+  color: #062743;
+}
+.cartitemsImage {
+  margin-top: 25px;
+  overflow: hidden;
+}
+.cartitemsImage img {
+  transition: transform 3s;
+}
+.cartitemsImage:hover img {
+  transform: scale(0.9);
+}
