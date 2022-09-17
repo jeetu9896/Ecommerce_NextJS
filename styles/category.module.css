@@ -1,0 +1,8 @@
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.category h1 {
+  font-size: 18px;
+}
