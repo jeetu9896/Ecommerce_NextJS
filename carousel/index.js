@@ -25,10 +25,10 @@ const Carousel = () => {
   return (
     <div className= {styles.main}>
         <button className ={`${styles.button} ${styles.prev}` } onClick={()=> setimgIndex(count => repeat(count-1))} > &#60; </button>
-        <button className = {`${styles.button} ${styles.next}`} onClick={()=> setimgIndex(count => repeat(count+1)) }> &#62;</button>
         <div>
           <Image src={sliderImage[imgIndex]} alt="image1" width={700} height={380} objectFit="contain"  />
         </div>
+        <button className = {`${styles.button} ${styles.next}`} onClick={()=> setimgIndex(count => repeat(count+1)) }> &#62;</button>
     </div>
   )
   }

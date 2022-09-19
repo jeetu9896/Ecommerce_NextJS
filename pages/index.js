@@ -27,7 +27,7 @@ export default function Home() {
         <Mens />
       </div>
       <div>
-        <h1>womens</h1>
+        <h1>Womens</h1>
         <Womens />
       </div>
     </div>
